@@ -349,6 +349,7 @@
 #![allow(clippy::too_many_arguments)]
 #![allow(clippy::type_complexity)]
 #![allow(clippy::redundant_closure)]
+#![feature(min_type_alias_impl_trait)]
 
 #[macro_use]
 extern crate failure;
